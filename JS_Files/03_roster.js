@@ -21,7 +21,7 @@ const SOCIAL_COLS = {
   twitch: 'K',
   youtube: 'I'
 };
-const STATS_COL = 'Z';
+const STATS_COL = 'Y';
 
 /* =======================
    DOM REFERENCES
