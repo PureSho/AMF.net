@@ -3,25 +3,25 @@
 /* =======================
    CONFIG
 ======================= */
-const SHEET_ID = '13j-KZkcX5YGl9erGQFgL9D44xs0HeLL6kG3dM4igmfo';
-const SHEET_NAME = 'SURGE Roster';
+const SHEET_ID = '1LCshOrYFHDW5MwdAureYos6rCAHAg0Y-5YQPD9Gb5w4';
+const SHEET_NAME = 'AMF Roster';
 const PAGE_SIZE = 10;
 
 const SHEET_COLUMNS = [
-  { header: 'Members', colLetter: 'A' },
-  { header: 'Role(s)', colLetter: 'B' },
+  { header: 'Members', colLetter: 'C' },
+  { header: 'Role(s)', colLetter: 'E' },
   { header: 'Status', colLetter: 'C' },
-  { header: 'Gender', colLetter: 'D' }
+  { header: 'Gender', colLetter: 'H' }
 ];
 
 // extra columns
 const AVATAR_COL = 'E';
 const SOCIAL_COLS = {
-  tiktok: 'F',
-  twitch: 'G',
-  youtube: 'H'
+  tiktok: 'X',
+  twitch: 'K',
+  youtube: 'I'
 };
-const STATS_COL = 'K';
+const STATS_COL = 'Z';
 
 /* =======================
    DOM REFERENCES
