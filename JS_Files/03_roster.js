@@ -221,12 +221,13 @@ function openPlayerCard(index) {
 
   const idx = l => colLetterToIdx(l);
 
-  const name = row[idx('A')] || 'Unknown';
+  const name = row[idx('C')] || 'Unknown';
 
   playerNameEl.textContent = name;
-  playerRoleEl.textContent = row[idx('B')] ? `Role: ${row[idx('B')]}` : '';
-  playerStatusEl.textContent = row[idx('C')] ? `Status: ${row[idx('C')]}` : '';
-  playerGenderEl.textContent = row[idx('D')] ? `Gender: ${row[idx('D')]}` : '';
+  playerRoleEl.textContent = row[idx('E')] ? `Role: ${row[idx('E')]}` : '';
+  playerStatusEl.textContent = row[idx('G')] ? `Status: ${row[idx('G')]}` : '';
+  playerStatusEl.textContent = row[idx('I')] ? `Banned League(s): ${row[idx('I')]}` : '';
+  playerGenderEl.textContent = row[idx('K')] ? `Gender & Age: ${row[idx('K')]}` : '';
 
   // avatar
   playerAvatar.innerHTML = '';
