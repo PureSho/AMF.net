@@ -10,18 +10,19 @@ const PAGE_SIZE = 10;
 const SHEET_COLUMNS = [
   { header: 'Members', colLetter: 'C' },
   { header: 'Role(s)', colLetter: 'E' },
-  { header: 'Status', colLetter: 'G' },
-  { header: 'Gender', colLetter: 'I' }
+  { header: 'Comp Status', colLetter: 'G' },
+  { header: 'Banned League(s)', colLetter: 'I' },
+  { header: 'Gender', colLetter: 'K' }
 ];
 
 // extra columns
-const AVATAR_COL = 'E';
+const AVATAR_COL = 'M';
 const SOCIAL_COLS = {
-  tiktok: 'X',
-  twitch: 'K',
-  youtube: 'I'
+  tiktok: 'O',
+  twitch: 'Q',
+  youtube: 'S'
 };
-const STATS_COL = 'Y';
+const STATS_COL = 'U';
 
 /* =======================
    DOM REFERENCES
