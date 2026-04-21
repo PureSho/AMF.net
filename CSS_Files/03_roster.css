@@ -19,9 +19,7 @@
             color: white;
         }
         body {
-            background-color: var(--bg-dark-purple);
-            background-image: url("../assets/images/body-bg.jpg");
-            background-repeat: repeat;
+            background: #120406;
             margin-bottom: 0px;
             margin-left: 0px;
             margin-top: 0px;
