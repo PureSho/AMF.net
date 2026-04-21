@@ -94,7 +94,9 @@
             position: relative;
             overflow: hidden;
             min-height: 66vh;
-            background: url(https://i.postimg.cc/2SJtJBZw/m-P5JVt-Cd.png) center/cover no-repeat;
+            background-color: var(--bg-dark-purple);
+            background-image: url("../assets/images/body-bg.jpg");
+            background-repeat: repeat;
             padding: 48px 20px;
             text-align: center;
         }
