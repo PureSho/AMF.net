@@ -19,7 +19,9 @@
             color: white;
         }
         body {
-            background-color: #6a1111;
+            background-color: var(--bg-dark-purple);
+            background-image: url("../assets/images/body-bg.jpg");
+            background-repeat: repeat;
             margin-bottom: 0px;
             margin-left: 0px;
             margin-top: 0px;
